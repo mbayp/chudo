@@ -5,57 +5,69 @@
 }
 
 body, html {
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat";
+    font-weight: 500;
     background-color: #d63434;
+    flex-direction: column;
 }
 
 .wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     max-width: 600px;
     text-align: center;
-    position: relative;
+}
+
+.image_block1 {
+    margin-top: 20px;
+}
+
+.image_block2 {
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .image_container {
-    position: relative;
-    width: 81.5vw;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 img {
     width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    border: 1.5px solid #fff;
+}
+
+.text_container {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
 }
 
 .buttons_container {
     display: flex;
-    justify-content: space-around;
-    position: absolute;
-    bottom: 10px; /* Располагаем кнопки внизу изображения */
-    left: 0;
-    right: 0;
-    padding: 0 10px;
+    justify-content: center;
 }
 
 button {
-    flex: 1;
     padding: 10px;
-    margin: 0 5px;
     font-size: 16px;
     cursor: pointer;
-    color: #000;
+    color: #302b2b;
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
-    background-color: #fff;
+    background-color: #ffe53a;
+    font-weight: 600;
 }
 
 button:hover {
-    background-color: #c9c9c9;
+    background-color: #ffff4f;
 }
