@@ -10,7 +10,7 @@ body, html {
     align-items: center;
     font-family: "Montserrat";
     font-weight: 500;
-    background-color: #d63434;
+    background-color: #c30b17;
     flex-direction: column;
 }
 
@@ -64,10 +64,10 @@ button {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
-    background-color: #ffe53a;
+    background-color: #fff;
     font-weight: 600;
 }
 
 button:hover {
-    background-color: #ffff4f;
+    background-color: #fff;
 }
