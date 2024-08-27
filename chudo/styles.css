@@ -136,6 +136,8 @@ button {
     border-radius: 50%;
     width: 25px;
     height: 25px;
+    border: 1px solid #c30b17;
+    margin-right: 3px;
 }
 
 .buttons_loc2 {
