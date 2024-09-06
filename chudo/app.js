@@ -17,7 +17,7 @@ function translateToRussian() {
 
     // Изменение картинок
     document.getElementById('img1').src = './images/1ru.JPG';
-    document.getElementById('img2').src = './images/2ru.png';
+    document.getElementById('img2').src = './images/2ru.PNG';
 
     // Изменение PDF файлов
     document.getElementById('button1').setAttribute('data-pdf', './pdf/1ru.pdf');
@@ -32,8 +32,8 @@ function translateToKyrgyz() {
     document.getElementById('button2').textContent = 'Танышуу';
 
     // Изменение картинок
-    document.getElementById('img1').src = './images/1kg.jpg';
-    document.getElementById('img2').src = './images/2kg.png';
+    document.getElementById('img1').src = './images/1kg.JPG';
+    document.getElementById('img2').src = './images/2kg.PNG';
 
     // Изменение PDF файлов
     document.getElementById('button1').setAttribute('data-pdf', './pdf/1kg.pdf');
@@ -45,7 +45,6 @@ function setLanguage(language) {
         translateToRussian();
     } else if (language === 'kg') {
         translateToKyrgyz();
-    
     }
     closeModal();
 }
